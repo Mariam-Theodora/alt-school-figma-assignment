@@ -574,7 +574,7 @@ select {
 
 input::placeholder,
 option {
-  color: #3284ff;
+  color: #5497fa;
   font-size: 12px;
 }
 
@@ -667,7 +667,7 @@ option {
 }
 
 .minus {
-  display: none;
+  display: 2;
 }
 
 .question-body {

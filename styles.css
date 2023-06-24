@@ -42,8 +42,8 @@ section {
   margin-top: 0.5rem;
 }
 
-.header-center,
-.nav-center,
+.header_in_center,
+.nav_container,
 .section-center {
   width: 90%;
   max-width: 1200px;
@@ -101,21 +101,21 @@ nav {
 }
 
 @media screen and (min-width: 900px) {
-  .header-center,
-  .nav-center,
+  .header_in_center,
+  .nav_container,
   .section-center {
     width: 95%;
   }
 }
 
-.nav-center {
+.nav_container {
   padding: 12px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo {
+.Scissor_logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -171,7 +171,7 @@ header {
   margin: 0 auto;
   font-size: 2.5rem;
 }
-.header-center {
+.header_in_center {
   display: flex;
   flex-direction: column;
   align-items: center;
